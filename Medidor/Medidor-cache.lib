@@ -250,6 +250,25 @@ X A1 8 -500 -200 100 R 40 40 0 0 B
 ENDDRAW
 ENDDEF
 #
+# Medidor-rescue_OLED-medidor
+#
+DEF Medidor-rescue_OLED-medidor Display 0 40 Y Y 1 F N
+F0 "Display" 600 50 50 H V C CNN
+F1 "Medidor-rescue_OLED-medidor" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 200 350 -150 0 1 0 N
+X GND 1 -300 300 100 D 50 39 1 1 W
+X Vcc 2 -200 300 100 D 50 39 1 1 W
+X SCL 3 -100 300 100 D 50 39 1 1 B
+X SDA 4 0 300 100 D 50 39 1 1 B
+X RES 5 100 300 100 D 50 39 1 1 I
+X DC 6 200 300 100 D 50 39 1 1 I
+X CS 7 300 300 100 D 50 39 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Medidor-rescue_TC2030-CTX-TAG_CONECT
 #
 DEF Medidor-rescue_TC2030-CTX-TAG_CONECT J 0 40 Y Y 1 L N
@@ -280,62 +299,11 @@ X TDO 6 500 -100 100 L 40 40 0 0 B
 ENDDRAW
 ENDDEF
 #
-# Medidor-rescue_terminal-medidor
+# Medidor-rescue_USB-medidor
 #
-DEF Medidor-rescue_terminal-medidor TER 0 40 Y Y 1 F N
-F0 "TER" 0 -150 50 H V C CNN
-F1 "Medidor-rescue_terminal-medidor" 0 250 50 H V C CNN
-F2 "" -200 200 50 H I C CNN
-F3 "" -200 200 50 H I C CNN
-DRAW
-S -100 100 100 -100 0 1 0 N
-X IN+ 1 -200 50 100 R 50 39 1 1 P
-X IN- 2 -200 -50 100 R 50 39 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_DPST_x2
-#
-DEF Switch_SW_DPST_x2 SW 0 0 Y N 2 F N
-F0 "SW" 0 125 50 H V C CNN
-F1 "Switch_SW_DPST_x2" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -80 0 20 0 0 0 N
-C 80 0 20 0 0 0 N
-P 2 0 0 0 -60 10 60 70 N
-X A 1 -200 0 100 R 50 50 1 1 P
-X B 2 200 0 100 L 50 50 1 1 P
-X A 3 -200 0 100 R 50 50 2 1 I
-X B 4 200 0 100 L 50 50 2 1 I
-ENDDRAW
-ENDDEF
-#
-# medidor_OLED
-#
-DEF medidor_OLED Display 0 40 Y Y 1 F N
-F0 "Display" 600 50 50 H V C CNN
-F1 "medidor_OLED" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -350 200 350 -150 0 1 0 N
-X GND 1 -300 300 100 D 50 39 1 1 W
-X Vcc 2 -200 300 100 D 50 39 1 1 W
-X SCL 3 -100 300 100 D 50 39 1 1 B
-X SDA 4 0 300 100 D 50 39 1 1 B
-X RES 5 100 300 100 D 50 39 1 1 I
-X DC 6 200 300 100 D 50 39 1 1 I
-X CS 7 300 300 100 D 50 39 1 1 I
-ENDDRAW
-ENDDEF
-#
-# medidor_USB
-#
-DEF medidor_USB US 0 40 Y Y 1 F N
+DEF Medidor-rescue_USB-medidor US 0 40 Y Y 1 F N
 F0 "US" 0 -300 50 H V C CNN
-F1 "medidor_USB" 0 300 50 H V C CNN
+F1 "Medidor-rescue_USB-medidor" 0 300 50 H V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -348,11 +316,11 @@ X GND 5 200 -200 100 L 50 39 1 1 W
 ENDDRAW
 ENDDEF
 #
-# medidor_nRF52832-QFN4
+# Medidor-rescue_nRF52832-QFN4-medidor
 #
-DEF medidor_nRF52832-QFN4 MCU 0 40 Y Y 1 F N
+DEF Medidor-rescue_nRF52832-QFN4-medidor MCU 0 40 Y Y 1 F N
 F0 "MCU" 0 100 50 H V C CNN
-F1 "medidor_nRF52832-QFN4" 0 -100 50 H V C CNN
+F1 "Medidor-rescue_nRF52832-QFN4-medidor" 0 -100 50 H V C CNN
 F2 "" -1000 1650 50 H I C CNN
 F3 "" -1000 1650 50 H I C CNN
 DRAW
@@ -406,6 +374,38 @@ X P0.04/AIN2 6 -900 50 100 R 50 39 1 1 B
 X P0.05/AIN3 7 -900 -50 100 R 50 39 1 1 B
 X P0.06 8 -900 -150 100 R 50 39 1 1 B
 X P0.07 9 -900 -250 100 R 50 39 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Medidor-rescue_terminal-medidor
+#
+DEF Medidor-rescue_terminal-medidor TER 0 40 Y Y 1 F N
+F0 "TER" 0 -150 50 H V C CNN
+F1 "Medidor-rescue_terminal-medidor" 0 250 50 H V C CNN
+F2 "" -200 200 50 H I C CNN
+F3 "" -200 200 50 H I C CNN
+DRAW
+S -100 100 100 -100 0 1 0 N
+X IN+ 1 -200 50 100 R 50 39 1 1 P
+X IN- 2 -200 -50 100 R 50 39 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_DPST_x2
+#
+DEF Switch_SW_DPST_x2 SW 0 0 Y N 2 F N
+F0 "SW" 0 125 50 H V C CNN
+F1 "Switch_SW_DPST_x2" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 10 60 70 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+X A 3 -200 0 100 R 50 50 2 1 I
+X B 4 200 0 100 L 50 50 2 1 I
 ENDDRAW
 ENDDEF
 #

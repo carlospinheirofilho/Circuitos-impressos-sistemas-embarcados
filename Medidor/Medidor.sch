@@ -1219,12 +1219,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR0145
 U 1 1 5D45CE3B
-P 1900 4650
-F 0 "#PWR0145" H 1900 4500 50  0001 C CNN
-F 1 "+3V3" H 1915 4823 50  0000 C CNN
-F 2 "" H 1900 4650 50  0001 C CNN
-F 3 "" H 1900 4650 50  0001 C CNN
-	1    1900 4650
+P 1550 4500
+F 0 "#PWR0145" H 1550 4350 50  0001 C CNN
+F 1 "+3V3" H 1565 4673 50  0000 C CNN
+F 2 "" H 1550 4500 50  0001 C CNN
+F 3 "" H 1550 4500 50  0001 C CNN
+	1    1550 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1240,8 +1240,6 @@ F 3 "~" H 2350 4650 50  0001 C CNN
 	1    2350 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2350 4650 2100 4650
 Wire Wire Line
 	2100 4650 2100 4800
 $Comp
@@ -1467,7 +1465,7 @@ F 3 "~" H 1400 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L medidor:nRF52832-QFN4 MCU1
+L Medidor-rescue:nRF52832-QFN4-medidor MCU1
 U 1 1 5D5C14BA
 P 5650 4400
 F 0 "MCU1" H 6594 4396 50  0000 L CNN
@@ -1516,7 +1514,7 @@ F 3 "" H 2150 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L medidor:USB US1
+L Medidor-rescue:USB-medidor US1
 U 1 1 5D5EBF95
 P 850 7250
 F 0 "US1" H 908 7675 50  0000 C CNN
@@ -1527,7 +1525,7 @@ F 3 "" H 850 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L medidor:OLED Display1
+L Medidor-rescue:OLED-medidor Display1
 U 1 1 5D5F6826
 P 1700 3700
 F 0 "Display1" H 2078 3829 50  0000 L CNN
@@ -1611,4 +1609,23 @@ Wire Notes Line
 	4500 2200 4500 600 
 Wire Notes Line
 	4500 600  3000 600 
+Wire Wire Line
+	2350 4650 2100 4650
+$Comp
+L Device:R_Small_US R13
+U 1 1 5D352B3E
+P 1700 4650
+F 0 "R13" V 1750 4800 50  0000 C CNN
+F 1 "1K" V 1750 4500 50  0000 C CNN
+F 2 "" H 1700 4650 50  0001 C CNN
+F 3 "~" H 1700 4650 50  0001 C CNN
+	1    1700 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1900 4650 1800 4650
+Wire Wire Line
+	1600 4650 1550 4650
+Wire Wire Line
+	1550 4650 1550 4500
 $EndSCHEMATC
