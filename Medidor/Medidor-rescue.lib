@@ -53,6 +53,18 @@ X NC ~ 350 -200 100 L 50 39 1 1 N
 ENDDRAW
 ENDDEF
 #
+# Fiducial-medidor
+#
+DEF Fiducial-medidor U 0 40 Y Y 1 F N
+F0 "U" 0 -100 50 H V C CNN
+F1 "Fiducial-medidor" 0 50 50 H V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+C 0 0 206 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # INA219-INA
 #
 DEF INA219-INA U 0 40 Y Y 1 L N
@@ -250,6 +262,18 @@ X P0.04/AIN2 6 -900 50 100 R 50 39 1 1 B
 X P0.05/AIN3 7 -900 -50 100 R 50 39 1 1 B
 X P0.06 8 -900 -150 100 R 50 39 1 1 B
 X P0.07 9 -900 -250 100 R 50 39 1 1 B
+ENDDRAW
+ENDDEF
+#
+# spacer-medidor
+#
+DEF spacer-medidor U 0 40 Y Y 1 F N
+F0 "U" 0 50 50 H V C CNN
+F1 "spacer-medidor" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 141 0 1 0 N
 ENDDRAW
 ENDDEF
 #

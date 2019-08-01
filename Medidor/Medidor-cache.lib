@@ -162,6 +162,38 @@ X S2 S2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Medidor-rescue_2450AT18D0100-medidor
+#
+DEF Medidor-rescue_2450AT18D0100-medidor U 0 40 Y Y 1 F N
+F0 "U" 0 -100 50 H V C CNN
+F1 "Medidor-rescue_2450AT18D0100-medidor" 0 -250 50 H V C CNN
+F2 "" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+DRAW
+S -350 150 400 -200 0 1 0 N
+X feed 1 -450 -100 100 R 50 50 1 1 B
+X GND 2 500 -100 100 L 50 50 1 1 W
+X GND 3 500 50 100 L 50 50 1 1 W
+X GND 4 -450 50 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Medidor-rescue_2450FM07A0029T-medidor
+#
+DEF Medidor-rescue_2450FM07A0029T-medidor Fil 0 40 Y Y 1 F N
+F0 "Fil" 350 -200 50 H V C CNN
+F1 "Medidor-rescue_2450FM07A0029T-medidor" 600 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 150 250 -200 0 1 0 N
+X IN 1 -350 0 100 R 50 39 1 1 B
+X GND 2 0 -300 100 U 50 39 1 1 W
+X OUT 3 350 0 100 L 50 39 1 1 B
+X GND 4 0 250 100 D 50 39 1 1 W
+ENDDRAW
+ENDDEF
+#
 # Medidor-rescue_DC-DC-medidor
 #
 DEF Medidor-rescue_DC-DC-medidor dc 0 40 Y Y 1 F N
@@ -179,6 +211,18 @@ X GND 6 350 -100 100 L 50 39 1 1 W
 X GND 7 350 0 100 L 50 39 1 1 W
 X Vin 8 350 100 100 L 50 39 1 1 W
 X NC ~ 350 -200 100 L 50 39 1 1 N
+ENDDRAW
+ENDDEF
+#
+# Medidor-rescue_Fiducial-medidor
+#
+DEF Medidor-rescue_Fiducial-medidor U 0 40 Y Y 1 F N
+F0 "U" 0 -100 50 H V C CNN
+F1 "Medidor-rescue_Fiducial-medidor" 0 50 50 H V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+C 0 0 206 0 1 0 N
 ENDDRAW
 ENDDEF
 #
@@ -236,6 +280,21 @@ X SDA 4 0 300 100 D 50 39 1 1 B
 X RES 5 100 300 100 D 50 39 1 1 I
 X DC 6 200 300 100 D 50 39 1 1 I
 X CS 7 300 300 100 D 50 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Medidor-rescue_Serial-medidor
+#
+DEF Medidor-rescue_Serial-medidor U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "Medidor-rescue_Serial-medidor" 0 -250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 200 150 -200 0 1 0 N
+X GND 1 -250 -100 100 R 50 50 1 1 W
+X Tx 2 -250 0 100 R 50 50 1 1 P
+X Rx 3 -250 100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -347,6 +406,18 @@ X P0.07 9 -900 -250 100 R 50 39 1 1 B
 ENDDRAW
 ENDDEF
 #
+# Medidor-rescue_spacer-medidor
+#
+DEF Medidor-rescue_spacer-medidor U 0 40 Y Y 1 F N
+F0 "U" 0 50 50 H V C CNN
+F1 "Medidor-rescue_spacer-medidor" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 141 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # Medidor-rescue_terminal-medidor
 #
 DEF Medidor-rescue_terminal-medidor TER 0 40 Y Y 1 F N
@@ -376,53 +447,6 @@ X A 1 -200 0 100 R 50 50 1 1 P
 X B 2 200 0 100 L 50 50 1 1 P
 X A 3 -200 0 100 R 50 50 2 1 I
 X B 4 200 0 100 L 50 50 2 1 I
-ENDDRAW
-ENDDEF
-#
-# medidor_2450AT18D0100
-#
-DEF medidor_2450AT18D0100 U 0 40 Y Y 1 F N
-F0 "U" 0 -100 50 H V C CNN
-F1 "medidor_2450AT18D0100" 0 -250 50 H V C CNN
-F2 "" 0 -100 50 H I C CNN
-F3 "" 0 -100 50 H I C CNN
-DRAW
-S -350 150 400 -200 0 1 0 N
-X feed 1 -450 -100 100 R 50 50 1 1 B
-X GND 2 500 -100 100 L 50 50 1 1 W
-X GND 3 500 50 100 L 50 50 1 1 W
-X GND 4 -450 50 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# medidor_2450FM07A0029T
-#
-DEF medidor_2450FM07A0029T Fil 0 40 Y Y 1 F N
-F0 "Fil" 350 -200 50 H V C CNN
-F1 "medidor_2450FM07A0029T" 600 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -250 150 250 -200 0 1 0 N
-X IN 1 -350 0 100 R 50 39 1 1 B
-X GND 2 0 -300 100 U 50 39 1 1 W
-X OUT 3 350 0 100 L 50 39 1 1 B
-X GND 4 0 250 100 D 50 39 1 1 W
-ENDDRAW
-ENDDEF
-#
-# medidor_Serial
-#
-DEF medidor_Serial U 0 40 Y Y 1 F N
-F0 "U" 0 250 50 H V C CNN
-F1 "medidor_Serial" 0 -250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -150 200 150 -200 0 1 0 N
-X GND 1 -250 -100 100 R 50 50 1 1 W
-X Tx 2 -250 0 100 R 50 50 1 1 P
-X Rx 3 -250 100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
