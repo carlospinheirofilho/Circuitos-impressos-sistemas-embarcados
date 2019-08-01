@@ -1,4 +1,4 @@
-update=26/07/2019 01:40:17
+update=01/08/2019 01:05:22
 version=1
 last_client=kicad
 [general]
@@ -247,6 +247,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=Ant
+Clearance=0.1
+TrackWidth=1.2
+ViaDiameter=0.5
+ViaDrill=0.3
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=Suply
 Clearance=0.1
 TrackWidth=0.4

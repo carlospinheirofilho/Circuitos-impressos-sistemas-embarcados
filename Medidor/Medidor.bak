@@ -1703,7 +1703,7 @@ $EndComp
 Wire Notes Line
 	3000 2200 4500 2200
 $Comp
-L medidor:Fiducial U4
+L Medidor-rescue:Fiducial-medidor U4
 U 1 1 5D438E8C
 P 9350 3200
 F 0 "U4" H 9584 3246 50  0000 L CNN
@@ -1714,7 +1714,7 @@ F 3 "" H 9350 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L medidor:Fiducial U6
+L Medidor-rescue:Fiducial-medidor U6
 U 1 1 5D43A2B9
 P 10300 3200
 F 0 "U6" H 10534 3246 50  0000 L CNN
@@ -1725,7 +1725,7 @@ F 3 "" H 10300 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L medidor:Fiducial U5
+L Medidor-rescue:Fiducial-medidor U5
 U 1 1 5D43A693
 P 9800 3600
 F 0 "U5" H 10034 3646 50  0000 L CNN
@@ -1736,7 +1736,7 @@ F 3 "" H 9800 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L medidor:spacer U7
+L Medidor-rescue:spacer-medidor U7
 U 1 1 5D43D50E
 P 9650 4100
 F 0 "U7" H 9819 4146 50  0000 L CNN
@@ -1747,7 +1747,7 @@ F 3 "" H 9650 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L medidor:spacer U9
+L Medidor-rescue:spacer-medidor U9
 U 1 1 5D43E3DB
 P 10350 4100
 F 0 "U9" H 10519 4146 50  0000 L CNN
@@ -1758,7 +1758,7 @@ F 3 "" H 10350 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L medidor:spacer U8
+L Medidor-rescue:spacer-medidor U8
 U 1 1 5D43E795
 P 10000 4500
 F 0 "U8" H 10169 4546 50  0000 L CNN
@@ -1769,7 +1769,7 @@ F 3 "" H 10000 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L medidor:spacer U10
+L Medidor-rescue:spacer-medidor U10
 U 1 1 5D44398C
 P 9400 4550
 F 0 "U10" H 9569 4596 50  0000 L CNN

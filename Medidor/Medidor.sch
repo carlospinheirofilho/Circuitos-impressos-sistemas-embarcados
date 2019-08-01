@@ -440,7 +440,7 @@ Wire Wire Line
 	3800 1200 3800 1050
 Wire Wire Line
 	3800 1400 3800 1550
-Text GLabel 5750 3050 2    50   Input ~ 0
+Text GLabel 5750 2900 2    50   Input ~ 0
 LEDMCU
 Wire Wire Line
 	4750 4550 4250 4550
@@ -932,7 +932,7 @@ Wire Wire Line
 	2800 5900 2800 5800
 Wire Wire Line
 	2000 5500 2000 5400
-Text GLabel 6100 3350 2    50   Input ~ 0
+Text GLabel 5750 3050 2    50   Input ~ 0
 RC1
 Text GLabel 6050 3200 2    50   Input ~ 0
 RC2
@@ -1194,7 +1194,7 @@ Text Label 4650 4150 0    50   ~ 0
 RX
 Text GLabel 2200 4450 2    50   Input ~ 0
 RC3
-Text GLabel 5750 2900 2    50   Input ~ 0
+Text GLabel 6100 3350 2    50   Input ~ 0
 RC3
 Wire Notes Line
 	7600 5100 11150 5100
