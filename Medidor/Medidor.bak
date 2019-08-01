@@ -440,7 +440,7 @@ Wire Wire Line
 	3800 1200 3800 1050
 Wire Wire Line
 	3800 1400 3800 1550
-Text GLabel 5750 3050 2    50   Input ~ 0
+Text GLabel 5750 2900 2    50   Input ~ 0
 LEDMCU
 Wire Wire Line
 	4750 4550 4250 4550
@@ -932,7 +932,7 @@ Wire Wire Line
 	2800 5900 2800 5800
 Wire Wire Line
 	2000 5500 2000 5400
-Text GLabel 6100 3350 2    50   Input ~ 0
+Text GLabel 5750 3050 2    50   Input ~ 0
 RC1
 Text GLabel 6050 3200 2    50   Input ~ 0
 RC2
@@ -999,7 +999,7 @@ U 1 1 5D5E1A19
 P 2200 7300
 F 0 "dc1" H 2225 7533 50  0001 C CNN
 F 1 "DC-DC" H 2225 7533 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SuperSOT-8" H 2200 7300 50  0001 C CNN
+F 2 "Medidor:L78L" H 2200 7300 50  0001 C CNN
 F 3 "" H 2200 7300 50  0001 C CNN
 	1    2200 7300
 	-1   0    0    -1  
@@ -1032,7 +1032,7 @@ U 1 1 5D601474
 P 9200 1850
 F 0 "U1" H 9200 2717 50  0000 C CNN
 F 1 "INA219-INA" H 9200 2626 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SuperSOT-8" H 9200 1850 50  0001 L BNN
+F 2 "Medidor:INA219" H 9200 1850 50  0001 L BNN
 F 3 "" H 9200 1850 50  0001 L BNN
 F 4 "SOT-23-8 Texas Instruments" H 9200 1850 50  0001 L BNN "Campo4"
 F 5 "Texas Instruments" H 9200 1850 50  0001 L BNN "Campo5"
@@ -1194,7 +1194,7 @@ Text Label 4650 4150 0    50   ~ 0
 RX
 Text GLabel 2200 4450 2    50   Input ~ 0
 RC3
-Text GLabel 5750 2900 2    50   Input ~ 0
+Text GLabel 6100 3350 2    50   Input ~ 0
 RC3
 Wire Notes Line
 	7600 5100 11150 5100
