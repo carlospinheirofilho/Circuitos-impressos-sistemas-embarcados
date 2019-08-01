@@ -1238,7 +1238,7 @@ Wire Wire Line
 Wire Wire Line
 	10800 5750 10750 5750
 $Comp
-L medidor:2450FM07A0029T Fil1
+L Medidor-rescue:2450FM07A0029T-medidor Fil1
 U 1 1 5D577615
 P 8500 5600
 F 0 "Fil1" H 8894 5621 50  0000 L CNN
@@ -1403,7 +1403,7 @@ F 3 "" H 10800 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L medidor:2450AT18D0100 U3
+L Medidor-rescue:2450AT18D0100-medidor U3
 U 1 1 5D426326
 P 10250 5700
 F 0 "U3" H 10275 6015 50  0001 C CNN
@@ -1673,7 +1673,7 @@ $EndComp
 Wire Wire Line
 	2450 5450 2800 5450
 $Comp
-L medidor:Serial U2
+L Medidor-rescue:Serial-medidor U2
 U 1 1 5D480BDF
 P 4300 7050
 F 0 "U2" V 4196 7278 50  0001 L CNN
