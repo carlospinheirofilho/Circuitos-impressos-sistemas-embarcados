@@ -1,4 +1,4 @@
-update=01/08/2019 01:05:22
+update=02/08/2019 11:23:28
 version=1
 last_client=kicad
 [general]
@@ -260,7 +260,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Suply
 Clearance=0.1
-TrackWidth=0.4
+TrackWidth=0.6
 ViaDiameter=0.8
 ViaDrill=0.5
 uViaDiameter=0.3

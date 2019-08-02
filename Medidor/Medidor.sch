@@ -1168,9 +1168,9 @@ Wire Wire Line
 Connection ~ 1900 4650
 Wire Wire Line
 	4300 6600 4300 6800
-Text Label 4200 6600 0    50   ~ 0
-TX
 Text Label 4500 6600 0    50   ~ 0
+TX
+Text Label 4200 6600 0    50   ~ 0
 RX
 Text Label 4650 4050 0    50   ~ 0
 TX
