@@ -361,9 +361,9 @@ Wire Wire Line
 	5300 2150 5300 3550
 Wire Wire Line
 	5400 2500 5400 3550
-Text GLabel 4250 4550 0    50   Input ~ 0
+Text GLabel 4250 4350 0    50   Input ~ 0
 SDA
-Text GLabel 4250 4650 0    50   Input ~ 0
+Text GLabel 4250 4450 0    50   Input ~ 0
 SCL
 NoConn ~ 5800 3550
 NoConn ~ 6200 3550
@@ -434,7 +434,7 @@ Wire Wire Line
 Text GLabel 5800 5650 0    50   Input ~ 0
 LEDMCU
 Wire Wire Line
-	4750 4550 4250 4550
+	4750 4350 4250 4350
 Text GLabel 3700 1950 0    50   Input ~ 0
 LEDMCU
 Wire Wire Line
@@ -503,10 +503,8 @@ Wire Wire Line
 Text Notes 1400 6350 0    50   ~ 0
 ALIMENTAÇÂO
 NoConn ~ 4750 3950
-NoConn ~ 4750 4450
 NoConn ~ 4750 4750
 NoConn ~ 4750 4850
-NoConn ~ 4750 4950
 Wire Wire Line
 	1700 7200 1700 6950
 Wire Wire Line
@@ -536,7 +534,7 @@ U 1 1 5D39A767
 P 10850 1900
 F 0 "TER1" H 10978 1905 50  0000 L CNN
 F 1 "terminal-medidor" H 10978 1860 50  0001 L CNN
-F 2 "" H 10650 2100 50  0001 C CNN
+F 2 "Medidor:Screw" H 10650 2100 50  0001 C CNN
 F 3 "" H 10650 2100 50  0001 C CNN
 	1    10850 1900
 	1    0    0    -1  
@@ -1172,9 +1170,9 @@ Text Label 4500 6600 0    50   ~ 0
 TX
 Text Label 4200 6600 0    50   ~ 0
 RX
-Text Label 4650 4050 0    50   ~ 0
+Text Label 4650 4650 0    50   ~ 0
 TX
-Text Label 4650 4150 0    50   ~ 0
+Text Label 4650 4550 0    50   ~ 0
 RX
 Text GLabel 2200 4450 2    50   Input ~ 0
 RC3
@@ -1764,13 +1762,12 @@ F 3 "" H 9400 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 4650 4750 4650
+	4250 4450 4750 4450
 NoConn ~ 4750 4250
-NoConn ~ 4750 4350
 Wire Wire Line
-	4750 4050 4650 4050
+	4750 4550 4650 4550
 Wire Wire Line
-	4750 4150 4650 4150
+	4750 4650 4650 4650
 Wire Wire Line
 	5200 5350 5200 5750
 Wire Wire Line
@@ -1791,4 +1788,7 @@ NoConn ~ 6100 3550
 NoConn ~ 6000 3550
 NoConn ~ 5700 3550
 NoConn ~ 5600 3550
+NoConn ~ 4750 4950
+NoConn ~ 4750 4150
+NoConn ~ 4750 4050
 $EndSCHEMATC
