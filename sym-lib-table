@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Medidor-rescue)(type Legacy)(uri ${KIPRJMOD}/Medidor-rescue.lib)(options "")(descr ""))
-)
