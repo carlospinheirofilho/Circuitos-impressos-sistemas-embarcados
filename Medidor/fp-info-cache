@@ -1,4 +1,4 @@
-15948108680728021
+15951246043415384
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49112,6 +49112,13 @@ cristal
 4
 3
 Medidor
+INAright
+
+
+0
+8
+8
+Medidor
 multi1
 
 
@@ -49125,6 +49132,13 @@ OLED
 0
 7
 7
+Medidor
+OledRight
+
+
+0
+0
+0
 Medidor
 Screw
 
